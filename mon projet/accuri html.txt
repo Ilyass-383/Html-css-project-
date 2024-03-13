@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="myStyle.css" >
+    <style> ul{
+        list-style: none;
+       margin:0 px;
+       padding: 0;
+       overflow: hidden;
+       background-color:#333;
+       background-attachment: fixed;
+       atta
+    }
+    li {
+        display: inline;
+    }
+    
+    li a{
+        margin: 0x 10px 0px 10px ;
+        color: white;
+        padding:20px 10px 20px 10px;
+        text-align: center;
+        float: left;
+    }
+    #ll {
+        padding: 20px 20px 20px 10px;
+        float: right;
+        text-align: left;
+    }
+    a:link {
+        text-decoration: none;
+        
+    }
+    a:hover {
+        background-color: black;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .divp {
+        border: 5px solid black;
+        padding: 20px;
+        margin: 100px;`
+       background-image: url("img_tree.png");
+    }
+    .textd {
+       overflow: hidden;
+    }
+    .textd:hover{
+        overflow: visible;
+    }
+    section > div {
+        border: 2px solid rgb(8, 67, 22);
+        display: inline-block; /* Afficher en ligne */
+        margin: 10px ;
+        padding: 10px;
+        width: 200px;
+        height: 200px;
+        margin-right: 60px;
+        margin-left: 50px;
+       background-color: rgb(145, 221, 195);
+    }
+    
+    
+    </style>
+</head>
+<body>
+<ul>
+    <li><a href="">Home </a></li>
+    <li><a href=" ">About me </a></li>
+    <li><a href=" ">Contact me </a></li>
+    <li><a href=" ">Quiz </a></li>
+    <li><a href=" " id="ll">Logout </a></li>
+</ul>
+
+<div class="divp" > 
+   <section>
+    <div> <strong>Parcoure:</strong><div class="textd">Stagiaire en Marketing Digital
+Agence ABC
+Juin 2019 - Décembre 2019
+
+Assistant de Recherche
+Université XYZ
+Septembre 2018 - Mai 2019
+Développeur Web Junior
+Entreprise XYZ
+Janvier 2020 - Présent</div></div>
+    <div><strong>Experiences: </strong> <div class="textd"> Expérience Professionnelle
+
+        Développeur Web Junior
+        Entreprise XYZ
+        Janvier 2020 - Présent
+        
+        Développement web (HTML, CSS, JavaScript).
+        Travail d'équipe et résolution de problèmes.
+        Stagiaire en Marketing Digital
+        </div> </div>
+    <div><strong>Skilles: </strong>  <div class="textd">Langages de programmation : HTML, CSS, JavaScript, Python
+        Frameworks : React.js, Bootstrap
+        Outils de conception : Adobe Photoshop, Figma
+        Gestion de versions : Git
+        Analyse de données : Excel, SPSS
+        </div> </div>
+</section>
+</div>    
+<div> 
+    <div >
+        <div><h1>CV</h1> </div>
+<img src="https://www.pngall.com/wp-content/uploads/5/Profile-Avatar-PNG.png" height="70" width="70">
+<div><strong>Nom:</strong></div>
+<span>Lamjadi</span><br>
+<div><strong>Prenom:</strong></div>
+<span>Mohamed</span>
+<div><strong>Diplomes:</strong></div>
+<span>Master CCA-comptabilite,controle,audit</span><br>
+<span>Licence de comptabilite</span><br>
+<div><strong>Experiences:</strong></div>
+<p>Expérience Professionnelle Développeur Web Junior Entreprise XYZ Janvier<br> 2020 - Présent Développement web (HTML, CSS, JavaScript). Travail d'équipe et résolution de problèmes. Stagiaire en Marketing Digital</p>
+    </div>
+</div>
+</body>
+</html>
